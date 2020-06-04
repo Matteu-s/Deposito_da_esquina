@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProdutosRefrigerantes">
-
+    tools:context=".produtos_whisky">
     <TextView
         android:id="@+id/textView1"
         android:layout_width="408dp"
         android:layout_height="36dp"
-        android:text="Refrigerantes"
+        android:text="Whisky"
         android:textAlignment="center"
         android:textColor="?attr/colorError"
         android:textSize="@dimen/subtitulo"
@@ -28,7 +27,7 @@
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:layout_marginTop="7dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Coca-Cola 2L"
+        android:text="Jack-Daniels"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -45,7 +44,7 @@
         android:layout_width="@dimen/tamanhoLarguraNomeProdutos"
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="R$ 9,00"
+        android:text="R$ 136,00"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -57,10 +56,10 @@
         app:layout_constraintVertical_bias="0.19" />
 
     <Button
-        android:id="@+id/btnRefrigerante"
+        android:id="@+id/btnWhiskyJackDaniels"
         android:layout_width="@dimen/tamanhoLarguraFotoProduto"
         android:layout_height="@dimen/tamanhoAlturaFotoProduto"
-        android:background="@drawable/refrigerante_coca_cola"
+        android:background="@drawable/whisky_jack_daniels"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.141"
@@ -70,7 +69,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnRefrigeranteCarrinho"
+        android:id="@+id/btnWJackDanielsCarrinho"
         android:layout_width="94dp"
         android:layout_height="49dp"
         android:text="Carrinho"
@@ -88,7 +87,7 @@
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:layout_marginTop="7dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Antártica 2L"
+        android:text="White-Horse"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -105,7 +104,7 @@
         android:layout_width="@dimen/tamanhoLarguraNomeProdutos"
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="R$ 7,50"
+        android:text="R$ 50,00"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -117,10 +116,10 @@
         app:layout_constraintVertical_bias="0.19" />
 
     <Button
-        android:id="@+id/btnRefrigerante2"
+        android:id="@+id/btnWhiskyWhiteHorse"
         android:layout_width="100dp"
         android:layout_height="@dimen/tamanhoAlturaFotoProduto"
-        android:background="@drawable/refrigerantes_guarana_antartica"
+        android:background="@drawable/whisky_white_horse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.816"
@@ -130,7 +129,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnRefrigeranteCarrinho2"
+        android:id="@+id/btnWWhiteHorse"
         android:layout_width="94dp"
         android:layout_height="53dp"
         android:text="Carrinho"
@@ -147,7 +146,7 @@
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:layout_marginTop="7dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Pepsi-Cola 2L"
+        android:text="Red Label 1L"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -164,7 +163,7 @@
         android:layout_width="@dimen/tamanhoLarguraNomeProdutos"
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="R$ 8,00"
+        android:text="R$ 90,00"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -176,10 +175,10 @@
         app:layout_constraintVertical_bias="0.591" />
 
     <Button
-        android:id="@+id/btnRefrigerante4"
+        android:id="@+id/btnWhiskyRedLabel"
         android:layout_width="@dimen/tamanhoLarguraFotoProduto"
         android:layout_height="@dimen/tamanhoAlturaFotoProduto"
-        android:background="@drawable/refrigerantes_pepsi"
+        android:background="@drawable/whisky_red_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.141"
@@ -189,7 +188,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnRefrigeranteCarrinho4"
+        android:id="@+id/btnWRedLabel"
         android:layout_width="94dp"
         android:layout_height="53dp"
         android:text="Carrinho"
@@ -208,7 +207,7 @@
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:layout_marginTop="7dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Fanta-Laranja"
+        android:text="Teacher's 1L"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -225,7 +224,7 @@
         android:layout_width="@dimen/tamanhoLarguraNomeProdutos"
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="R$ 6,00"
+        android:text="R$ 49,90"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="@dimen/fonteProdutos"
@@ -237,10 +236,10 @@
         app:layout_constraintVertical_bias="0.591" />
 
     <Button
-        android:id="@+id/btnRefrigerante3"
+        android:id="@+id/btnWhiskyTeachers"
         android:layout_width="@dimen/tamanhoLarguraFotoProduto"
         android:layout_height="@dimen/tamanhoAlturaFotoProduto"
-        android:background="@drawable/refrigerantes_fanta"
+        android:background="@drawable/whisky_teacher"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.813"
@@ -250,7 +249,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnRefrigeranteCarrinho3"
+        android:id="@+id/btnWTeachers"
         android:layout_width="94dp"
         android:layout_height="53dp"
         android:text="Carrinho"
@@ -272,6 +271,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
