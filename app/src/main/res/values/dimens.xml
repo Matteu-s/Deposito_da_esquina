@@ -1,5 +1,7 @@
 <resources>
-    <dimen name="TamanhoCategoria_width">92dp</dimen>
-    <dimen name="TamanhoCategoria_height">85dp</dimen>
-    <dimen name="tamanhoTitulo">25dp</dimen>
+    <dimen name="tamanhoCategoria_width">92dp</dimen>
+    <dimen name="tamanhoCategoria_height">85dp</dimen>
+    <dimen name="tamanhoTitulo">28dp</dimen>
+    <dimen name="subtitulo">25dp</dimen>
+    <dimen name="fonteProdutos">10dp</dimen>
 </resources>
