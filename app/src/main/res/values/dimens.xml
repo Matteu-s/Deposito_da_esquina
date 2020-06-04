@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="TamanhoCategoria_width">92dp</dimen>
+    <dimen name="TamanhoCategoria_height">85dp</dimen>
+    <dimen name="tamanhoTitulo">25dp</dimen>
+</resources>
