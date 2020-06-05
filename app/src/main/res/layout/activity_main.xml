@@ -39,7 +39,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnWhiskey"
+        android:id="@+id/btnWhisky"
         android:layout_width="@dimen/tamanhoLarguraFotoProduto"
         android:layout_height="@dimen/tamanhoAlturaFotoProduto"
         android:layout_marginEnd="20dp"

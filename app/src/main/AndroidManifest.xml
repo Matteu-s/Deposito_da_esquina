@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".produtos_whisky"></activity>
+        <activity android:name=".pedidoConcluido"></activity>
+        <activity android:name=".login" />
+        <activity android:name=".produtos_carrinho" />
+        <activity android:name=".produtos_whisky" />
         <activity android:name=".ProdutosRefrigerantes" />
         <activity android:name=".MainActivity">
             <intent-filter>

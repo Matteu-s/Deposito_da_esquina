@@ -22,7 +22,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtWiskyJackDanielsNome"
         android:layout_width="@dimen/tamanhoLarguraNomeProdutos"
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:layout_marginTop="7dp"
@@ -40,7 +40,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtWiskyJackDanielsPreco"
         android:layout_width="@dimen/tamanhoLarguraNomeProdutos"
         android:layout_height="@dimen/tamanhoAlturaNomeProdutos"
         android:fontFamily="sans-serif-condensed-medium"
@@ -129,7 +129,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnWWhiteHorse"
+        android:id="@+id/btnWWhiteHorseCarrinho"
         android:layout_width="94dp"
         android:layout_height="53dp"
         android:text="Carrinho"
@@ -188,7 +188,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnWRedLabel"
+        android:id="@+id/btnWRedLabelCarrinho"
         android:layout_width="94dp"
         android:layout_height="53dp"
         android:text="Carrinho"
@@ -249,7 +249,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnWTeachers"
+        android:id="@+id/btnWTeachersCarrinho"
         android:layout_width="94dp"
         android:layout_height="53dp"
         android:text="Carrinho"
@@ -261,7 +261,7 @@
         app:layout_constraintVertical_bias="0.843" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCarrinho"
         android:layout_width="62dp"
         android:layout_height="53dp"
         android:background="@drawable/carrinho"
@@ -271,5 +271,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:background="@drawable/retornar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,15 +15,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnRefrigerante = (Button)findViewById(R.id.btnRefrigerante);
-
         btnRefrigerante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                telaRefrigerantes();
+                startActivity(new Intent(MainActivity.this, ProdutosRefrigerantes.class ));
             }
         });
-    }
-    private void telaRefrigerantes() {
-        startActivity(new Intent(MainActivity.this, ProdutosRefrigerantes.class ));
+
+        Button btnWhisky = (Button)findViewById(R.id.btnWhisky);
+        btnWhisky.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, produtos_whisky.class ));
+            }
+        });
+
+
     }
 }
